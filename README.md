@@ -16,7 +16,7 @@ Then install required python packages
 
 ## Usage
 
-This scraper has two script, the first one downloads the profile data (except the questions) of all users it can find by swapping in the okcupid web app. The second one goes through the scraped users and downloads their answers.
+This scraper has two scripts, the first one downloads the profile data (except the questions) of all users it can find by swiping in the okcupid web app. The second one goes through the scraped users and downloads their answered questions.
 
 ### Find users and download their data
 
