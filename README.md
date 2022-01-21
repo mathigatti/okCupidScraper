@@ -46,9 +46,9 @@ In the testing.ipynb notebook you can check some examples of how to process the 
 
 ### How to cite this?
 
-This source code was developed by Mathias Gatti (@mathigatti) if you publish something that used it remember to mention this project. For scientific publications you can use this DOI.
+This source code was developed by Mathias Gatti (@mathigatti) if you publish something that used it remember to mention this project. For scientific publications you can cite it like this in APA notation.
 
-[![DOI](https://zenodo.org/badge/450634004.svg)](https://zenodo.org/badge/latestdoi/450634004)
+_Gatti, M. (2022). mathigatti/okCupidScraper: v1.0.0 (Version v1.0.0) [Computer software]. https://doi.org/10.5281/zenodo.5889263_
 
 
 ## Extra
