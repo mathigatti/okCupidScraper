@@ -44,6 +44,13 @@ You can run it like this, users answers will be downloaded into _answers_ folder
 
 In the testing.ipynb notebook you can check some examples of how to process the data. Users data is downloaded as HTML so I use beautifulSoup to parse it and extract the relevant information. Users questions are in JSON format so it's easier to process.
 
+### How to cite this?
+
+This source code was developed by Mathias Gatti (@mathigatti) if you publish something that used it remember to mention this project. For scientific publications you can use this DOI.
+
+[![DOI](https://zenodo.org/badge/450634004.svg)](https://zenodo.org/badge/latestdoi/450634004)
+
+
 ## Extra
 
 ### Related datasets
