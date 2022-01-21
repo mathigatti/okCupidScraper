@@ -14,7 +14,7 @@ Then install required python packages
 
 ## Applications
 
-okCupid provides self descriptions, selfies and big questionnaires that are really interesting for anyone interested in psychometrics.
+okCupid provides self descriptions, selfies and big questionnaires that are really useful for anyone interested in psychometrics.
 
 For now I just used it to scrape self descriptions and train an AI to generate new ones. You can check more about it [here](https://mathigatti.com/2021/02/15/okcupid-synthetic-profiles/).
 
@@ -28,7 +28,7 @@ This scraper has two script, the first one downloads the profile data (except th
 
 Using this script and changing your profile details, like gender, sexual orientation and location you can scrape pretty much all users in a given location in okCupid.
 
-You can run it like this
+You can run it like this, users data will be downloaded into _users_ folder
 
 - python users_by_discover.py
 
@@ -36,7 +36,13 @@ You can also try the _users_by_question.py_ script, it search for users that ans
 
 ### Download questions
 
+You can run it like this, users answers will be downloaded into _answers_ folder
+
 - python users_by_question.py
+
+### Parsing data
+
+In the testing.ipynb notebook you can check some examples of how to process the data. Users data is downloaded as HTML so I use beautifulSoup to parse it and extract the relevant information. Users questions are in JSON format so it's easier to process.
 
 ## Extra
 
