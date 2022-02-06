@@ -4,11 +4,11 @@ okCupid provides self descriptions, selfies and big questionnaires that are real
 
 ## Requisites
 
-- [chromdriver](https://chromedriver.chromium.org/downloads)
+- [chromedriver](https://chromedriver.chromium.org/downloads)
 
 - [Get cookies.txt](https://chrome.google.com/webstore/detail/get-cookiestxt/bgaddhkoddajcdgocldbbfleckgcbcid/related?hl=en)
 
-Log in with your okcupid account and download cookies with [Get cookies.txt](https://chrome.google.com/webstore/detail/bgaddhkoddajcdgocldbbfleckgcbcid). Place the okcupid.com_cookies.txt file in the scraper root folder.
+Log in with your okcupid account and download cookies with [Get cookies.txt](https://chrome.google.com/webstore/detail/bgaddhkoddajcdgocldbbfleckgcbcid). Place the okcupid.com_cookies.txt file in the scraper root folder. Replace chromedriver file with the one that corresponds to your OS and chrome version.
 
 Then install required python packages
 
